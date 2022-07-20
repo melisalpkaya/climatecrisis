@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html class="no-js" lang="zxx">
     <head>
         <meta charset="utf-8">
@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="css/responsive-1.css">
     </head>
     <body>
-     <!-- header -->
+     <!-- header  -->
         <header class="header-area header-three">  
             
 			 <div id="header-sticky" class="menu-area">
@@ -76,9 +76,79 @@
                              <div class="col-xl-1 col-lg-1 text-center d-none d-lg-block mt-15 mb-15">
                                 <a href="contact-1.html" class="menu-tigger"><i class="fal fa-search"></i></a>
                             </div>
+            
                             <div class="col-xl-2 col-lg-2 text-right d-none d-lg-block mt-15 mb-15">
-                                <a href="contact-1.html" class="btn ss-btn">Anket</a>
+                                <button type="button" class="btn ss-btn" data-toggle="modal" data-target="#exampleModalCenter">
+                                Anket
+                                </button>
                             </div>
+                    
+                            <!-- modal area -->
+                            
+                           <!-- Modal -->
+                    <div data-backdrop="false" class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered " role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                                <div id="exampleModalCenterTitle" class="section-title center-align modal-title">
+                                    <h5>ANKET</h5>
+                                     <h2>
+                                         LOREM
+                                     </h2>
+                                 </div>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="mail.php" method="post" class="contact-form mt-30">
+                                    <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="contact-field p-relative c-name mb-30">                                    
+                                            <input type="text" id="firstn" name="firstn" placeholder="First Name" required>
+                                        </div>                               
+                                    </div>
+                                    <div class="col-lg-6">                               
+                                        <div class="contact-field p-relative c-email mb-20">                                    
+                                            <input type="text" id="lastn" name="lastn" placeholder="Last Name" required>
+                                        </div>                                
+                                    </div>
+                                    <div class="col-lg-6">                               
+                                        <div class="contact-field p-relative c-subject mb-30">                                   
+                                            <input type="text" id="email" name="email" placeholder="Email" required>
+                                        </div>
+                                    </div>		
+                                    <div class="col-lg-6">                               
+                                        <div class="contact-field p-relative c-subject mb-30">                                   
+                                            <input type="text" id="phone" name="phone" placeholder="Phone No." required>
+                                        </div>
+                                    </div>	
+                                    <div class="col-lg-12">                               
+                                        <div class="contact-field p-relative c-subject mb-30">                                   
+                                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                                        </div>
+                                    </div>	
+                                    
+                                    <div class="col-lg-12">
+                                        <div class="contact-field p-relative c-message mb-30">                                  
+                                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write comments"></textarea>
+                                        </div>
+                                                                  
+                                    </div>
+                                    </div>
+                                
+                            </form>
+                            </div>
+                            <div class="modal-footer">
+                                <div class="slider-btn">                                          
+                                    <button type="button" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s" data-dismiss="modal">Gönder</button>
+                                            
+                                </div>   
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Modal -->
                           
                             
                                 <div class="col-12">
@@ -146,7 +216,7 @@
                         <div class="container">
                            <div class="row justify-content-center pt-50">
                                 <div class="col-lg-7 col-md-7">
-                                    <div class="slider-content s-slider-content mt-150">
+                                    <div class="slider-content s-slider-content">
                                         
                                          <h2 data-animation="fadeInUp" data-delay=".4s">İklim için alışkanlıklarını değiştirme zamanı</h2>
                                         <p data-animation="fadeInUp" data-delay=".6s">Curabitur nec laoreet nulla. Mauris aliquam malesuada nibh, sodales ullamp sapien imperdiet vel. Vestibulum fringilla purus metus.</p>
